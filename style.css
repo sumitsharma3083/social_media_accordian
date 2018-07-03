@@ -1,0 +1,235 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: #333;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container
+{
+    height: 120px;
+    width: 60%;
+    background-color: #555;
+    margin: auto;
+    margin-top: 100px;
+}
+#main-heading
+{
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    margin-top: 30px;
+}
+#div1
+{
+    position: relative;
+    float: left;
+    height: 120px;
+    width: 50px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+    background-color: #fff;
+    border-right: 4px solid #000;
+}
+#div1:hover
+{
+    width: 300px;
+   
+}
+#div1::before
+{
+   content : 'Fb';
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 50px;
+   background: #FF0000;;
+      display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   
+ 
+}
+#div1 *
+{
+   width: 70%;
+   margin: auto;
+   text-align: center;
+}
+#div1 a
+{
+    display: block;
+}
+
+#div2
+{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 120px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+    background-color: #fff;   
+    border-right: 4px solid #000;
+}
+#div2:hover
+{
+    width: 300px;
+   
+}
+#div2::before
+{
+    content : 'Insta';
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    background-color: #222;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#div2 *
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#div2 a
+{
+    display: block;
+}
+#twitter
+{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 120px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+    background-color: #fff;  
+    border-right: 4px solid #000;
+}
+#twitter:hover
+{
+    width: 300px;
+}
+#twitter::before
+{
+    content: 'Twitter';
+    position: absolute;
+    left: 0;
+    background: #1DA1F2;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#twitter *
+{
+   width: 70%;
+   margin: auto;
+   text-align: center;
+}
+#twitter a
+{
+    display: block;
+}
+
+#linked-in
+{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 120px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+    background-color: #fff;  
+    border-right: 4px solid #000;
+}
+#linked-in:hover
+{
+    width: 300px;
+}
+#linked-in::before
+{
+    content: 'Linked-in';
+    position: absolute;
+    left: 0;
+   background: #283E4A;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+#linked-in *
+{
+   width: 70%;
+   margin: auto;
+   text-align: center;
+}
+#linked-in a
+{
+    display: block;
+}
+#github
+{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 120px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+    background-color: #fff;  
+   
+}
+#github:hover
+{
+    width: 300px;
+}
+#github::before{
+    content: 'Github';
+    position: absolute;
+    left: 0;
+   background: #2B3137;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#github *
+{
+   width: 70%;
+   margin: auto;
+   text-align: center;
+}
+#github a
+{
+    display: block;
+}
